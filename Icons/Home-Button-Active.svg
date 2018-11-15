@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 56">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Home-Button-Active);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        font-size: 14px;
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Home-Button-Active">
+      <rect width="120" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="Home-Button-Active" class="cls-1">
+    <rect class="cls-4" width="120" height="56"/>
+    <g id="favorites" transform="translate(-149.9 -544.9)">
+      <g id="Group_220" data-name="Group 220">
+        <rect id="XMLID_2_" class="cls-2" width="72" height="20" transform="translate(174.3 578.9)"/>
+        <text id="Favorites-2" data-name="Favorites" class="cls-3" transform="translate(190.977 590.869)"><tspan x="0" y="0">Home</tspan></text>
+        <path id="ic_home_24px" d="M10,20V14h4v6h5V12h3L12,3,2,12H5v8Z" transform="translate(197.9 553.9)"/>
+      </g>
+      <rect id="Rectangle_135" data-name="Rectangle 135" class="cls-2" width="120" height="56" transform="translate(150.3 544.9)"/>
+    </g>
+  </g>
+</svg>

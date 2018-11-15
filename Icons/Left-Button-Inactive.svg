@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 56">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Left-Button-Inactive);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        font-size: 12px;
+        font-family: Roboto-Regular, Roboto;
+        opacity: 0.54;
+      }
+
+      .cls-4 {
+        fill: #737474;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Left-Button-Inactive">
+      <rect width="120" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="Left-Button-Inactive" class="cls-1">
+    <rect class="cls-5" width="120" height="56"/>
+    <g id="recents" transform="translate(-29.9 -544.9)">
+      <g id="Group_212" data-name="Group 212">
+        <rect id="XMLID_6_" class="cls-2" width="79.9" height="20" transform="translate(49.9 578.9)"/>
+        <text id="Recents-2" data-name="Recents" class="cls-3" transform="translate(60.631 589.869)"><tspan x="0" y="0">Categories</tspan></text>
+        <path id="ic_list_24px" class="cls-4" d="M3,13H5V11H3Zm0,4H5V15H3ZM3,9H5V7H3Zm4,4H21V11H7Zm0,4H21V15H7ZM7,7V9H21V7Z" transform="translate(77.9 555.9)"/>
+      </g>
+      <rect id="Rectangle_133" data-name="Rectangle 133" class="cls-2" width="120" height="56" transform="translate(29.9 544.9)"/>
+    </g>
+  </g>
+</svg>

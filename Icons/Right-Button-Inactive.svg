@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 56">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Right-Button-Inactive);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        font-size: 12px;
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-3, .cls-4 {
+        opacity: 0.54;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Right-Button-Inactive">
+      <rect width="120" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="Right-Button-Inactive" class="cls-1">
+    <rect class="cls-5" width="120" height="56"/>
+    <g id="nearby" transform="translate(-269.9 -544.9)">
+      <g id="Group_216" data-name="Group 216">
+        <rect id="XMLID_4_" class="cls-2" width="72" height="20" transform="translate(294.1 578.9)"/>
+        <text id="Nearby-2" data-name="Nearby" class="cls-3" transform="translate(310.889 590.869)"><tspan x="0" y="0">Nearby</tspan></text>
+        <g id="Group_215" data-name="Group 215" class="cls-4">
+          <path id="Path_68" data-name="Path 68" class="cls-2" d="M317.9,552.9h24v24h-24Z"/>
+          <path id="Path_69" data-name="Path 69" d="M330.1,560.1a3.8,3.8,0,0,0-3.8,3.8c0,3,3.8,6.5,3.8,6.5s3.8-3.5,3.8-6.5A3.8,3.8,0,0,0,330.1,560.1Zm0,5.3a1.5,1.5,0,1,1,1.5-1.5A1.473,1.473,0,0,1,330.1,565.4Zm0-10.5a10,10,0,1,0,10,10A10.029,10.029,0,0,0,330.1,554.9Zm0,18a8,8,0,1,1,8-8A8.024,8.024,0,0,1,330.1,572.9Z"/>
+        </g>
+      </g>
+      <rect id="Rectangle_134" data-name="Rectangle 134" class="cls-2" width="120" height="56" transform="translate(270.1 544.9)"/>
+    </g>
+  </g>
+</svg>
