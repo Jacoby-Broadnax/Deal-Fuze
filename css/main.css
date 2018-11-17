@@ -88,7 +88,7 @@ card-btns > button > a {
     color: black;
 }
 
-.card-btns > button {
+.card-btns > a > button {
     background-color: white;
     border: none;
     color: black;
