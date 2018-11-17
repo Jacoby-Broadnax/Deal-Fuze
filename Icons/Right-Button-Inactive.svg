@@ -12,10 +12,11 @@
       .cls-3 {
         font-size: 12px;
         font-family: Roboto-Regular, Roboto;
+        opacity: 0.54;
       }
 
-      .cls-3, .cls-4 {
-        opacity: 0.54;
+      .cls-4 {
+        fill: #757575;
       }
 
       .cls-5 {
@@ -31,10 +32,10 @@
     <g id="nearby" transform="translate(-269.9 -544.9)">
       <g id="Group_216" data-name="Group 216">
         <rect id="XMLID_4_" class="cls-2" width="72" height="20" transform="translate(294.1 578.9)"/>
-        <text id="Nearby-2" data-name="Nearby" class="cls-3" transform="translate(310.889 590.869)"><tspan x="0" y="0">Nearby</tspan></text>
-        <g id="Group_215" data-name="Group 215" class="cls-4">
-          <path id="Path_68" data-name="Path 68" class="cls-2" d="M317.9,552.9h24v24h-24Z"/>
-          <path id="Path_69" data-name="Path 69" d="M330.1,560.1a3.8,3.8,0,0,0-3.8,3.8c0,3,3.8,6.5,3.8,6.5s3.8-3.5,3.8-6.5A3.8,3.8,0,0,0,330.1,560.1Zm0,5.3a1.5,1.5,0,1,1,1.5-1.5A1.473,1.473,0,0,1,330.1,565.4Zm0-10.5a10,10,0,1,0,10,10A10.029,10.029,0,0,0,330.1,554.9Zm0,18a8,8,0,1,1,8-8A8.024,8.024,0,0,1,330.1,572.9Z"/>
+        <text id="Nearby-2" data-name="Nearby" class="cls-3" transform="translate(305.889 590.869)"><tspan x="0" y="0">Coupons</tspan></text>
+        <g id="baseline-card_giftcard-24px" transform="translate(317.9 554.9)">
+          <path id="Path_128" data-name="Path 128" class="cls-4" d="M20,6H17.82A2.993,2.993,0,0,0,12.5,3.35l-.5.67-.5-.68A2.994,2.994,0,0,0,6.18,6H4A1.985,1.985,0,0,0,2.01,8L2,19a1.993,1.993,0,0,0,2,2H20a1.993,1.993,0,0,0,2-2V8A1.993,1.993,0,0,0,20,6ZM15,4a1,1,0,1,1-1,1A1,1,0,0,1,15,4ZM9,4A1,1,0,1,1,8,5,1,1,0,0,1,9,4ZM20,19H4V17H20Zm0-5H4V8H9.08L7,10.83,8.62,12,11,8.76,12,7.4l1,1.36L15.38,12,17,10.83,14.92,8H20Z"/>
+          <path id="Path_129" data-name="Path 129" class="cls-2" d="M0,0H24V24H0Z"/>
         </g>
       </g>
       <rect id="Rectangle_134" data-name="Rectangle 134" class="cls-2" width="120" height="56" transform="translate(270.1 544.9)"/>
