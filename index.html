@@ -7,6 +7,51 @@
     <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/vivify.min.css">
+    <script src="//code.jquery.com/jquery-2.0.3.min.js"></script><!-- online jquery.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.1.2/handlebars.min.js"></script><!-- online handlebars.js-->
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $.getJSON('https://api.sheety.co/1c0174d5b32dbebdf6f1e14d6ba67a4f/studentDealNow/sheet1', function (data) {
+                var template = Handlebars.compile($('#item-template').html())
+                $('#anchor').html(template(data.sheet1))
+            })
+        })
+      </script>
+      
+  
+      
+      <script id="item-template" type="text/x-handlebars-template">
+      
+        <div class="spacer" id="top"></div>
+        
+      {{#each this}}
+      
+    
+
+
+      <div class="navigation-card cd1 vivify fadeIn delay-200 ">
+          <img class="card-icon vivify fadeIn" src="{{logo}}">
+          <h3>{{title}}</h3>
+          <a href="#">
+              <div>
+                  <h4>{{subTitle}}</h4>
+              </div>
+          </a>
+          <img class="card-img " src="{{banner}}">
+          <p>{{description}}</p>
+          <div class="card-btns">
+  
+              <a href="{{tryNow}}"><button>Start Now</button></a>
+            
+          </div>
+  
+      </div>
+  
+      <div class="card-divider"></div>
+      {{/each}}
+      
+      </script>
 </head>
 
 <body class="">
@@ -23,47 +68,9 @@
         </div>
     </a>
 
-    <div class="spacer" id="top"></div>
+    <div id="anchor"></div>
 
-    <div class="navigation-card cd1 vivify fadeIn delay-200 ">
-        <img class="card-icon vivify fadeIn" src="Logos/Directvnow_logo.svg">
-        <h3>Get Your First 3 Months For $10 A Month</h3>
-        <a href="#">
-            <div>
-                <h4>Directv Now</h4>
-            </div>
-        </a>
-        <img class="card-img " src="https://i1.wp.com/www.thecordcutterlife.com/wp-content/uploads/2017/12/directv-now-most-desireable.jpg?resize=500%2C281&ssl=1">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Sling-Logo.svg">
-        <h3>Get A Free Roku Express</h3>
-        <a href="#">
-            <div>
-                <h4>Sling TV</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Sling.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
+   
 
     <div class="ad-unit">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -75,316 +82,10 @@
     </div>
 
 
-    <div class="card-divider"></div>
 
-    <div class="navigation-card cd2">
-        <img class="card-icon" src="Logos/spotify-logo.svg">
-        <h3>Spotify Premium for Students, with Hulu.</h3>
-        <a href="#">
-            <div>
-                <h4>Spotify · Hulu</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/rectangle.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
 
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
 
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-    <div class="card-divider"></div>
-
-    <div class="navigation-card cd2 vivify fadeIn delay-300">
-        <img class="card-icon" src="Logos/Place-Holder-Logo.svg">
-        <h3>Place Holder Header</h3>
-        <a href="#">
-            <div>
-                <h4>Place Holder Sub header</h4>
-            </div>
-        </a>
-        <img class="card-img" src="Images/Place-Holder-Banner.svg">
-        <p>Service renews at full price (min. $35/mo.) after three months unless you cancel. Price for "Live a Little" pkg after discount. Ltd time offer. New sub's only. Voids 7-day trial. Rest's apply. See details</p>
-        <div class="card-btns">
-
-            <a href="#"><button>Try Now</button></a>
-            <a href="#"><button>Visit Site</button></a>
-        </div>
-
-    </div>
-
-
-
-
-    <div class="card-divider"></div>
-    <div class="card-btns" style="margin: auto; width: 103px;margin-top: 50px;margin-bottom: 80px;">
-        <a href=""><button>Load More</button></a>
-
-
-    </div>
-
+ 
     <div class="bottom-navigation">
         <div class="button-items"><a href=""><img src="Icons/Left-Button-Inactive.svg"></a><a href="#top"><img src="Icons/Home-Button-Active.svg"></a><a href="#"><img src="Icons/Right-Button-Inactive.svg"></a></div>
     </div>
