@@ -76,14 +76,58 @@
                     <h3>Featured Deal</h3>
                     <h2>Spotify Premium for Students, with Hulu $6.99</h2>
                     <p>Spotify Premium Student with Hulu and SHOWTIME.</p>
-                    <button class="outlined-button">Learn More</button>
+                    <a href="https://www.spotify.com/us/student/">
+                        <button class="outlined-button">Learn More</button>
+                    </a>
+                </div>
+                <div class="icon-list">
+                    <h3>Included In Deal</h3>
+                    <div class="icon-item">
+                        <img src="Logos/spotify.svg">
+                        <p>Spotify</p>
+                    </div>
+                    <div class="icon-item">
+                        <img src="Logos/hulu.svg">
+                        <p>Hulu</p>
+                    </div>
+                    <div class="icon-item">
+                        <img src="Logos/showtime.svg">
+                        <p>Showtime</p>
+                    </div>
                 </div>
             </div>
-          
         </div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        ...
+
+        <div class="swiper-slide">
+            <img src="https://i.insider.com/5d261e4fa17d6c17cb411803?width=1136&format=jpeg">
+            <div class="swipe-text-wrapper">
+                <div class="swipe-text">
+                    <h3>Hidden Gem</h3>
+                    <h2>Amazon Prime Student $6.99</h2>
+                    <p>Fast, free delivery on over 100 million items, unlimited access to Prime movies and TV shows, exclusive deals, and more</p>
+                    <a href="https://www.amazon.com/Amazon-Student/b?ie=UTF8&node=668781011">
+                        <button class="outlined-button">Learn More</button>
+                    </a>
+                  
+                </div>
+                <div class="icon-list">
+                    <div class="icon-item">
+                        <img src="Logos/primegaming.svg">
+                        <p>Prime Gaming</p>
+                    </div>
+                    <div class="icon-item">
+                        <img src="https://pbs.twimg.com/profile_images/1286436635416989702/Li21fgjc_400x400.png">
+                        <p>Prime Video</p>
+                    </div>
+                    <div class="icon-item">
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/dex/2019/PrimeDelivery/DEX_2019_Prime_PrimeDelivery_LP_1DC_250x170._CB1567810397_.jpg">
+                        <p>Free Delivery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
@@ -95,11 +139,18 @@
 </div>
 
 <script>
+
+
 var mySwiper = new Swiper('.swiper-container', {
   // Optional parameters
 
   direction: 'horizontal',
   loop: true,
+
+  autoplay: {
+        delay: 4500,
+        disableOnInteraction: false,
+      },
 
   // If we need pagination
   pagination: {
