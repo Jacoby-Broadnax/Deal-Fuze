@@ -62,18 +62,21 @@ a {
     
 }
 
-.navigation-card > a > div > h4 {
+.navigation-card> div > h4 {
     font-weight: normal;
     font-size: 14px;
     margin-top: 0px;
     color: #737474;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+    ;
 }
 
 .navigation-card > h3 {
     font-weight: normal;
     font-size: 14px;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
+    color: black;
+    
 }
 
 .navigation-card > p {
@@ -82,7 +85,8 @@ a {
     ;
     font-size: 14px;
     margin-top: 15px;
-    line-height: 19px;
+    line-height: 22px;
+    color: black;
 }
 
 .card-btns {
