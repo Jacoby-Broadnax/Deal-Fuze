@@ -232,3 +232,25 @@ a {
  .icon-item > p {color: white; font-weight: 600;width: 100%; text-align: center;margin-top: 0px;font-size: 13px;}
 
  .icon-list > h3 {color: white; font-size: 13px;margin-bottom: -5px;display: none;}
+
+ @media screen and (min-width: 800px) {
+    .navigation-card {
+        /* margin: auto; */
+        width: 448px;
+        display: inline-block;
+        /* float: left; */
+        vertical-align: top;
+        margin-right: 15px;
+        margin-top: 18px;
+  }
+  .card-divider {display: none;}
+
+  #anchor {    margin: auto;
+    width: 94%;}
+
+    .card-icon {    padding-top: 14px;
+        border-radius: 0px;}
+
+        .card-img {    height: 255px;
+            object-fit: cover;}
+}
