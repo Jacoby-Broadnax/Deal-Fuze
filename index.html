@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/vivify.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="//code.jquery.com/jquery-2.0.3.min.js"></script><!-- online jquery.js -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.1.2/handlebars.min.js"></script><!-- online handlebars.js-->
 
@@ -56,9 +61,64 @@
 
 <body class="">
     <div class="top-navigation">
-        <div class="logo-wrapper"> <img class="logo" src="Logos/Deal-Now-Logo.png"></div>
+        <div class="logo-wrapper"> <img class="logo" src="Logos/Deal Now White.png"></div>
         <div style="display: none;" class="vert-menu"><a href="#"><img src="Icons/ic_more_vert_24px.svg"></a>
         </div>
+
+        <!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+            <img src="Images/spotify.png">
+            <div class="swipe-text-wrapper">
+                <div class="swipe-text">
+                    <h3>Featured Deal</h3>
+                    <h2>Spotify Premium for Students, with Hulu $6.99</h2>
+                    <p>Spotify Premium Student with Hulu and SHOWTIME.</p>
+                    <button class="outlined-button">Learn More</button>
+                </div>
+            </div>
+          
+        </div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+
+
+
+</div>
+
+<script>
+var mySwiper = new Swiper('.swiper-container', {
+  // Optional parameters
+
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+})
+    </script>
     </div>
 
 

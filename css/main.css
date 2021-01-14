@@ -6,8 +6,11 @@ a {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+
 body {
-    font-family: sans-serif;
+    font-family: "Open Sans";
     margin: 0px;
 }
 
@@ -17,9 +20,9 @@ a {
 
 .top-navigation {
     width: 100%;
-    height: 56px;
+    height: 374px;
     background-color: white;
-    position: fixed;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 0px;
@@ -38,7 +41,7 @@ a {
 
 .spacer {
     width: 100%;
-    height: 56px;
+    height: 376px;
 }
 
 .logo {
@@ -49,6 +52,8 @@ a {
     margin: auto;
     width: 130px;
     margin-top: 11px;
+    position: relative;
+    z-index: 5;
 }
 
 .navigation-card {
@@ -168,6 +173,7 @@ a {
     right: 16px;
     z-index: 100;
     border-radius: 50px;
+    display: none;
 }
 
 .fab-container > img {
@@ -187,3 +193,29 @@ a {
     margin-right: 22px;
     margin-top: 19px;
 }
+
+
+/*------------------------Swiper Js---------------------------*/
+
+.swiper-container {width: 100%; height: 100%;margin-top: -53px;}
+
+.swiper-slide > img{width: 100%;filter: brightness(0.4)}
+
+.swipe-text {;}
+
+.swipe-text-wrapper {    position: absolute;
+    top: 82px;
+    width: 294px;
+    margin-left: 31px;}
+
+    .swipe-text > h3 {font-size: 14px;background-color: rgba(0, 0, 0, 0.39) ;color: white;width: fit-content;font-weight: normal;padding: 7px;padding-top: 5px; padding-bottom: 5px;border-radius: 4px;;}
+
+    .swipe-text > h2 {color: white;margin-top: -9px;}
+
+    .swipe-text > p {color: white;
+        font-size: 14px;
+        margin-top: -15px}
+
+        .outlined-button {font-weight: 600;padding: 8px;background-color: transparent;border: solid 2px white;color: white; border-radius: 4px;}
+
+        .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {background-color: white; ;}
