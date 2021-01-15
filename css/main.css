@@ -10,7 +10,7 @@ a {
 
 
 body {
-    font-family: "Open Sans";
+font-family: roboto, sans-serif;
     margin: 0px;
 }
 
@@ -215,7 +215,7 @@ a {
 
     .swipe-text > h3 {font-size: 14px;background-color: rgba(0, 0, 0, 0.39) ;color: white;width: fit-content;font-weight: normal;padding: 7px;padding-top: 5px; padding-bottom: 5px;border-radius: 4px;;}
 
-    .swipe-text > h2 {color: white;margin-top: -9px;font-weight: bold}
+    .swipe-text > h2 {color: white;margin-top: -9px;font-weight: 600}
 
     .swipe-text > p {color: white;
         font-size: 14px;
