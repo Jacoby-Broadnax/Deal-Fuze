@@ -67,6 +67,8 @@
         <div style="display: none;" class="vert-menu"><a href="#"><img src="Icons/ic_more_vert_24px.svg"></a>
         </div>
 
+    
+
         <!-- Slider main container -->
 <div class="swiper-container">
     <!-- Additional required wrapper -->
@@ -140,7 +142,7 @@
 
 
 </div>
-
+<div id="scroller"></div>
 <script>
 
 
@@ -213,6 +215,14 @@ var mySwiper = new Swiper('.swiper-container', {
                 });
             });
         });
+
+        setTimeout(function(){
+            window.location='#';
+        }, 1000);
+
+        setTimeout(function(){
+            window.location='#scroller';
+        }, 3000);
     </script>
 </body>
 
